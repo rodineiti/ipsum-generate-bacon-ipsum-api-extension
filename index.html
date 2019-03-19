@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generate Ipsum with JSON API Bacon Ipsum</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">	
+	<script src="script.js"></script>
+	<style>
+    body {
+    	padding-top: 50px;
+      	min-width:400px;
+      	min-height: 400px;
+    }
+  </style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-body">
+				<div class="col">
+					<h5 class="card-title text-center">GENERATE OF IPSUM</h5>
+				</div>
+				<div class="form">
+					<div class="form-group">
+						<label for="paras">Number of paragraphs</label>
+						<input type="number" min="1" name="paras" id="paras" class="form-control" value="1">
+						<button class="btn btn-primary btn-block" id="btn-generate">Generate</button>
+					</div>
+				</div>
+				<div class="col" style="margin-top: 10px;">
+					<div class="text-center" id="result" class="result"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

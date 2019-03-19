@@ -1,0 +1,10 @@
+{
+	"name": "Generate Ipsum",
+	"version": "1.0",
+	"description": "Generate Ipsum with JSON API Bacon Ipsum",
+	"browser_action": {
+		"default_popup": "index.html",
+		"default_icon": "icon.png"
+	},
+	"manifest_version": 2
+}
